@@ -18,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/Yabl04ko23/webpack"
   },
-  "homepage": "",
+  "homepage": "https://yabl04ko23.github.io/js-hw-12-countries/",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/plugin-proposal-class-properties": "^7.10.4",
