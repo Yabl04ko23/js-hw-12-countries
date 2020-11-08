@@ -2,6 +2,7 @@ import {error} from "@pnotify/core";
 import "@pnotify/core/dist/PNotify.css";
 import "@pnotify/core/dist/BrightTheme.css";
 import {badReq} from './errors.js'
+import refs from './countryRefs.js';
 
 export default function fetchCountries(searchQuery){
   let url = `https://restcountries.eu/rest/v2/name/${searchQuery}`
@@ -11,5 +12,6 @@ export default function fetchCountries(searchQuery){
     } else {
       return response.json();
     }
+    refs.input.value = ""
   });
 }
